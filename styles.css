@@ -1,0 +1,71 @@
+/* GENERAL PAGE STYLE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom right, #f7d9ff, #ffd6e8);
+    background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #c59bff, #ffb3d9);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+nav {
+    background: linear-gradient(to right, #d7b3ff, #ffb3d9);
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO IMAGE */
+.hero {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-bottom: 4px solid #e8b3ff;
+}
+
+/* MAIN CONTENT BOX */
+.content-box {
+    background: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 750px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(150, 80, 200, 0.2);
+}
+
+/* HEADINGS */
+h2, h3 {
+    color: #a45de6;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(to right, #c59bff, #ffb3d9);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+    font-size: 14px;
+}
