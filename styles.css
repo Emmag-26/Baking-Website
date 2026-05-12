@@ -69,3 +69,10 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
+img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(150, 80, 200, 0.3);
+}
